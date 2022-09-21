@@ -27,7 +27,7 @@ public class UpdatedTestCase1 {
 		WebDriverUtility webdriverutility = new WebDriverUtility();
 		webdriverutility.webDriverlaunchbrowser("chrome");
 		webdriverutility.waittillpageload(driver, 100);
-		webdriverutility.Opentheapplication(driver, manoj2);
+		webdriverutility.Opentheapplication( driver, manoj2);
 		webdriverutility.maximizeBrowser(driver);
 		driver.findElement(By.xpath("//a[text()='Login']")).click();
 		driver.findElement(By.xpath("//input[@type='text']")).sendKeys(manoj );

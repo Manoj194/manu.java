@@ -27,7 +27,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 @SuppressWarnings("unused")
 public class WebDriverUtility {
 	Select s;
-WebDriver driver;
+//WebDriver driver;
 	// public static WebDriver main(String[] args) {
 	// TODO Auto-generated method stub
 	/**
@@ -78,7 +78,7 @@ WebDriver driver;
 	/**
 	 * This method use to open the application author Manoj
 	 */
-	public void Opentheapplication(String url) {
+	public void Opentheapplication(WebDriver driver,String url) {
 		driver.get(url);
 	}
 
@@ -141,7 +141,7 @@ WebDriver driver;
 		maximizeBrowser(driver);
 		long longtimeout2 = 0;
 		waittillpageload(driver, longtimeout1);
-		Opentheapplication(url1);
+		Opentheapplication(driver,url1);
 		return driver;
 
 	}

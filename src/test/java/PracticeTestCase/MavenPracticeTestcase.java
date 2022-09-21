@@ -12,9 +12,10 @@ import tyss.SDET40_genericFiles.Iconstantpath;
 import tyss.SDET40_genericFiles.WebDriverUtility;
 
 public class MavenPracticeTestcase {
+	WebDriver driver;
+
 	@Test
 	
-
 	public  void step1Test() {
 
 		String browser =System.getProperty("b");
@@ -25,7 +26,7 @@ public class MavenPracticeTestcase {
 		
 		WebDriverUtility web=new WebDriverUtility(); 
 		WebDriver Driver= web.webDriverlaunchbrowser(browser);
-		web.Opentheapplication(url);
+		web.Opentheapplication(driver, url);
 	}
 
 }
