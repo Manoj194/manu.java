@@ -15,6 +15,7 @@ import tyss.SDET40_genericFiles.WebDriverUtility;
 public class UserRegistrationTestCase extends BaseClassUtility {
 	@Test
 	public void UserRegistrationTestCaseWithTestNG1() throws InterruptedException, IOException {
+		//manoj kumar bh
 		Map<String, String> map = excelUtility.getDataFromExcelInMap("Testdata");
 		String Username = map.get("UN");
 		String Firstname = map.get("FN");
