@@ -16,7 +16,7 @@ public class Addresturant extends BaseClassUtility{
 	@Test
 	public void AddResturant() {	
 		// TODO Auto-generated method stub
-		System.out.println("MANU");
+		System.out.println("MANOJ");
 	    String UN = new ExcelUtility ().getDataFromExcl(Iconstantpath.EXCELPATH,"AddingResturant",0,1);
 		String URL = new ExcelUtility ().getDataFromExcl(Iconstantpath.EXCELPATH,"AddingResturant",2,1);
 		String PWD = new ExcelUtility ().getDataFromExcl(Iconstantpath.EXCELPATH,"AddingResturant",1,1);
