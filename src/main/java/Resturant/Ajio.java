@@ -24,7 +24,7 @@ public class Ajio {
 		//Thread.sleep(2000);
 		 driver.findElement(By.xpath("//a[@title='KIDS']")).click();	
 		Thread.sleep(2000);
-		//modification done by me jdbcljjb
+		//Modification done by me jbdkcjvweh
 		
 
 
