@@ -23,7 +23,7 @@ public class AddResturantTestCaseTest extends BaseClassUtility {
 	@Test
 	public void AddResturant() throws InterruptedException {
 		// TODO Auto-generated method stub
-		//manoj kumar bh
+		//manoj kumar bhserdt
 		Map<String, String> map = excelUtility.getDataFromExcelInMap("AddingResturant");
 		String URL = map.get("URL");
 		String UN = map.get("UN");																																																																																																																																																																																																																																																																																																																																																							
