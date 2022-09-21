@@ -39,7 +39,7 @@ public class UserRegistrationAndDelete {
 		String manoj21 = new ExcelUtility ().getDataFromExcl(Iconstantpath.EXCELPATH,"Testdata",5,1);
 		String manoj31 = new ExcelUtility ().getDataFromExcl(Iconstantpath.EXCELPATH,"Testdata",4,1);
 		String manoj41 = new ExcelUtility ().getDataFromExcl(Iconstantpath.EXCELPATH,"Testdata",6,1);
-
+//manoj 
 		WebDriverUtility webdriverutility = new WebDriverUtility();
 		JavaUtility j = new JavaUtility();
 		int Random = j.RandomNumber(1000);
