@@ -63,7 +63,7 @@ public class UserRegistrationAndDelete {
 		driver.findElement(By.xpath("//input[@name='cpassword']")).sendKeys( manoj9);
 		driver.findElement(By.xpath("//textarea[@name='address']")).sendKeys( manoj0);
 		driver.findElement(By.xpath("//input[@value='Register']")).click();
-		System.out.println( manoj3);
+		System.out.println( "manoj68655");
 		driver=webdriverutility.webDriverlaunchbrowser("chrome");
 		webdriverutility.Opentheapplication(driver, manoj31);
 		webdriverutility.waittillpageload(driver, 10);
