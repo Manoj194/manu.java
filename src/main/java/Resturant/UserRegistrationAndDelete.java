@@ -46,8 +46,7 @@ public class UserRegistrationAndDelete {
 		webdriverutility.waittillpageload(driver, 10);
 		webdriverutility.Opentheapplication(driver, manoj2);
 		webdriverutility.maximizeBrowser(driver);
-		
-		System.out.println("manu");
+		System.out.println("manu54351165");
 		driver.findElement(By.xpath("//a[text()='Login']")).click();
 		driver.findElement(By.xpath("//input[@type='text']")).sendKeys(manoj);    
 		driver.findElement(By.xpath("//input[@type='password']")).sendKeys(manoj1);    
@@ -63,7 +62,6 @@ public class UserRegistrationAndDelete {
 		driver.findElement(By.xpath("//input[@name='cpassword']")).sendKeys( manoj9);
 		driver.findElement(By.xpath("//textarea[@name='address']")).sendKeys( manoj0);
 		driver.findElement(By.xpath("//input[@value='Register']")).click();
-		System.out.println( "manoj68655");
 		driver=webdriverutility.webDriverlaunchbrowser("chrome");
 		webdriverutility.Opentheapplication(driver, manoj31);
 		webdriverutility.waittillpageload(driver, 10);
