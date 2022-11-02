@@ -46,7 +46,6 @@ public class UserRegistrationAndDelete {
 		webdriverutility.waittillpageload(driver, 10);
 		webdriverutility.Opentheapplication(driver, manoj2);
 		webdriverutility.maximizeBrowser(driver);
-		System.out.println("manu54351165ryty543");
 		driver.findElement(By.xpath("//a[text()='Login']")).click();
 		driver.findElement(By.xpath("//input[@type='text']")).sendKeys(manoj);    
 		driver.findElement(By.xpath("//input[@type='password']")).sendKeys(manoj1);    

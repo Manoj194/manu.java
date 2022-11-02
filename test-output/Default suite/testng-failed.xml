@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PracticeTestCase.MavenPracticeTestcase">
+      <class name="PracticeTestCase.PlaceTheOrder">
         <methods>
-          <include name="step1Test"/>
+          <include name="ClassTearDown"/>
+          <include name="methodSetUP1"/>
+          <include name="UpdateTestCaseWithTestNG"/>
+          <include name="ClassSetup"/>
         </methods>
-      </class> <!-- PracticeTestCase.MavenPracticeTestcase -->
+      </class> <!-- PracticeTestCase.PlaceTheOrder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

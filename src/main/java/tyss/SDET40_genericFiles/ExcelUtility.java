@@ -77,29 +77,14 @@ public class ExcelUtility {
 		return sheetname1;
 	}
 
-	/**
-	 * This Method use to fetch the data from excel and stored in excel
-	 * 
-	 * @param string
-	 * @param string
-	 */
-	public Map<String, String> GetDataFromExcel(String sheetname) {
-		Sheet sheet = workbook.getSheet(sheetname);
-		Map<String, String> map = new HashMap<>();
-		DataFormatter df = new DataFormatter();
-		for (int i = 0; i <= sheet.getLastRowNum(); i++) {
-			map.put(df.formatCellValue(sheet.getRow(i).getCell(0)), df.formatCellValue(sheet.getRow(i).getCell(1)));
-		}
 
-		return map;
-	}
 
 	/*
 	 * This method used for open the excel
 	 * 
 	 */
 	public void OpenExcel(String EXCELPATH) throws EncryptedDocumentException, IOException {
-	// String EXCELPATH = null;
+		// String EXCELPATH = null;
 		FileInputStream fis = new FileInputStream(EXCELPATH);
 		workbook = WorkbookFactory.create(fis);
 
@@ -125,6 +110,7 @@ public class ExcelUtility {
 		}
 		return value;
 
+		
 	}
 
 	/**
@@ -137,14 +123,14 @@ public class ExcelUtility {
 		Sheet sheet = workbook.getSheet(sheetName);
 		Map<String, String> map = new HashMap<>();
 		DataFormatter df = new DataFormatter();
-		for (int i = 0; i <=sheet.getLastRowNum(); i++) {
+		for (int i = 0; i <= sheet.getLastRowNum(); i++) {
 			map.put(df.formatCellValue(sheet.getRow(i).getCell(0)), df.formatCellValue(sheet.getRow(i).getCell(1)));
 		}
 		return map;
 	}
 
 	public Map<String, String> getDataFromExcelInMap1(String sheetName1) {
-	Sheet sheet = workbook.getSheet(sheetName1);
+		Sheet sheet = workbook.getSheet(sheetName1);
 		Map<String, String> map = new HashMap<>();
 		DataFormatter df = new DataFormatter();
 		for (int i = 0; i <= sheet.getLastRowNum(); i++) {
@@ -156,6 +142,7 @@ public class ExcelUtility {
 	// Data Provider
 	/**
 	 * This method used for getMultiple Data
+	 * 
 	 * @param sheetname
 	 * @return
 	 */
