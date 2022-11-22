@@ -11,7 +11,7 @@ public class Ajio {
 		// TODO Auto-generated method stub
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver=new ChromeDriver();
-		driver.
+		driver.// comments
 		manage().window().maximize();
 		driver.get("https://www.ajio.com/?gclid=EAIaIQobChMI8LaO6Zfh-QIVa5VLBR2nsQq3EAAYASAAEgJbRfD_BwE");
 		Thread.sleep(2000);
