@@ -11,7 +11,7 @@ public class Ajio {
 		// TODO Auto-generated method stub
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver=new ChromeDriver();
-		driver.// comments
+		driver.
 		manage().window().maximize();
 		driver.get("https://www.ajio.com/?gclid=EAIaIQobChMI8LaO6Zfh-QIVa5VLBR2nsQq3EAAYASAAEgJbRfD_BwE");
 		Thread.sleep(2000);
@@ -20,6 +20,7 @@ public class Ajio {
 		//Thread.sleep(2000);
 		 driver.findElement(By.xpath("//a[@title='KIDS']")).click();	
 		Thread.sleep(2000);
+		// comments
 		//Modification done by me jbdkcjvweh
 		//,knlebfljb
 		
